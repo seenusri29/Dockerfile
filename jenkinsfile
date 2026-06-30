@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/barani3024j/docker-file.git'
+                    url: 'https://github.com/seenusri29/Dockerfile.git'
             }
         }
 
